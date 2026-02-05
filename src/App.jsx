@@ -87,11 +87,6 @@ function App() {
         {/* bat-signal glow */}
         <div className="pointer-events-none absolute -top-40 -right-32 h-80 w-80 rounded-full bg-[radial-gradient(circle,rgba(255,215,0,0.9)_0%,rgba(255,215,0,0.08)_60%,transparent_70%)] opacity-30" />
 
-        {/* mini bat logo */}
-        <div className="absolute left-6 top-4 hidden h-7 w-16 items-center justify-center rounded-full bg-yellow-400 text-[0.62rem] font-black uppercase tracking-[0.18em] text-black shadow-[0_0_14px_rgba(255,215,0,0.9)] sm:flex">
-          <span className="mt-px">BAT</span>
-        </div>
-
         {/* tagline */}
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-slate-400/70 bg-slate-900/95 px-4 py-1 text-[0.78rem] uppercase tracking-[0.12em] text-slate-200">
           <span className="h-1.75 w-1.75 rounded-full bg-yellow-400 shadow-[0_0_10px_rgba(255,215,0,0.9)]" />
